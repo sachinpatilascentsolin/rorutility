@@ -1,0 +1,28 @@
+<html>
+<body>
+<h1>Request sending</h1>
+<h1><font color=red><%= @reqerror %></font> </h1>
+<p><%= @st %></p>
+<!--<p>Trans ID:<%= @strMsg %></p>-->
+<p>MerchantTranId :<%=@MerchantTranId%></p>
+<p>MarketCode :<%=@MarketCode%></p>
+<p>AccountNo :<%=@AccountNo%></p>
+<p>Amt :<%=@Amt%></p>
+<p>BankCode :<%=@BankCode%></p>
+<!--<p>Property File path : <%=@proppath%></p>-->
+<hr>
+<p>Response Message:<%= @response %></p>
+<%= @msg %>
+
+
+<!--https://www.tekprocess.co.in/PaymentGateway/TransactionRequest.jsp-->
+
+<form action="https://www.tekprocess.co.in/PaymentGateway/TransactionRequest.jsp" id="sunFrm" name="sunFrm">
+     <input type="hidden" value="<%= @msg %>"/>
+</form>
+
+<script>
+        document.sunFrm.submit();
+</script>
+</body>
+</html>
