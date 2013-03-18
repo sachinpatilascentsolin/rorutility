@@ -7,7 +7,7 @@ gem 'rails', '3.2.12'
 
 gem 'sqlite3'
 gem 'savon'
-gem 'TPSLUtil', :git=>"git://github.com/sachinpatilascentsolin/rorutility.git"
+gem 'TPSLUtil' #, '0.0.1', :path => 'vendor/TPSLUtil-0.0.1.gem' #'~> 0.0.1', :git=>"https://github.com/sachinpatilascentsolin/gemfile.git"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
