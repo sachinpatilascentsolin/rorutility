@@ -5,7 +5,7 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+#gem 'sqlite3'
 gem 'savon'
 gem 'TPSLUtil' #, '0.0.1', :path => 'vendor/TPSLUtil-0.0.1.gem' #'~> 0.0.1', :git=>"https://github.com/sachinpatilascentsolin/gemfile.git"
 # Gems used only for assets and not required
